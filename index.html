@@ -7,15 +7,15 @@
     <title>LegoConstructor</title>
     <script src="playDeckBridge.js"></script>
 </head>
-<body class="dark">
-<div id="unity-container" style="position: absolute; width: 100%; height: 100%">
+<body class="dark" style="margin: 0;>
+<div id="unity-container" style="position: absolute; width: 100%; height: 100%; overflow: hidden;">
     <canvas id="unity-canvas" width=1024 height=1024 style="width: 100%; height: 100%"></canvas>
 </div>
 <script>
     const buildUrl = "Build";
     const loaderUrl = buildUrl + "/be6e36c242f9d15c59c2a95c4128ec8c.loader.js";
     const config = {
-        dataUrl: buildUrl + "/0199d7a33792384b05d5ffaa811d4cb4.data.unityweb",
+        dataUrl: buildUrl + "/d50e1cf22c8d5a0e03c0543c0db80d70.data.unityweb",
         frameworkUrl: buildUrl + "/438021275adb69ee6d00fea28c2a7a5b.framework.js.unityweb",
         codeUrl: buildUrl + "/dd0cb1bf81b6b575a2ce4d1a8498cb9e.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
